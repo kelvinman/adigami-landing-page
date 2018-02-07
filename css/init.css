@@ -1,0 +1,64 @@
+.inline-icon {
+   vertical-align: bottom;
+   font-size: 23px !important;
+   font-family: 'FontAwesome', sans-serif;
+}
+
+/* label focus color */
+ .input-field input:focus + label {
+   color: red !important;
+ }
+ /* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid red !important;
+   box-shadow: 0 1px 0 0 red !important
+ }
+
+ .select-wrapper ul li>span {
+    color: black;
+}
+
+.fixed_nav{
+    position: fixed;
+    z-index:999;
+}
+
+.fixed_nav.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.nav_logo{
+    margin: 0px 10px;
+}
+
+.function_right{
+    width:40%;
+    margin-right:150px;
+}
+
+.function_left{
+    width:40%;
+    margin-left:150px;
+}
+
+.description{
+    padding-top: 50px;
+}
+
+.integration_icon{
+    width: 100%
+}
+
+.contact_icon{
+    width: 20%
+}
+
+.break{
+    height:50px;
+}
+
+.slider .slides li img {
+    background-size:100% auto;
+    background-repeat: no-repeat;
+}
