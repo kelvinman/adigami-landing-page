@@ -11,7 +11,10 @@ $(document).ready(function(){
 $(function () {
       $(document).scroll(function () {
         var $nav = $(".fixed_nav");
-        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        var $a = $(".nav_text");
+        var $li = $(".landing_img");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $li.height()-50);
+        $a.toggleClass('grey-text', $(this).scrollTop() > $li.height()-50);
       });
     });
 
